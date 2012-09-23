@@ -4,9 +4,6 @@
 the website for **artdeco decoration** company
 
 
-###Building Technologies
-
-
 
 ###The Team
 *  [**Ali Mihandoost**] (http://github.com/Alimd)  Teacher  & Technical Manager
@@ -14,29 +11,7 @@ the website for **artdeco decoration** company
 *  [**Masume Lotfi**] (https://github.com/MasumeLotfi) Designer / Developer
 
 
-###Our Desire Design Is : http://caverastudios.com/
-
-
-###Building Technologies:
-
-1Styles
-
-CSS
-
-HTML5 the website for **artdeco decoration** company
-
-
-###Building Technologies
-
-
-
-###The Team
-*[**Ali Mihandoost**] Teacher & Technical Manager
-*[**Arezu eslami**] Designer / Developer
-*[**Masume Lotfi**] Designer / Developer
-
-
-###Our Desire Design Is: http://www
+###Our Desire Design Is: http://caverastudios.com/
 
 
 ###Technologies:
