@@ -1,6 +1,6 @@
 ##Decoratin web site: Artdeco20.ir
 =================
-The website for the **Decoart20 Design and Decoration** company.
+The website for the **Art Deco Interior Design** company.
 
 the website for **artdeco decoration** company
 
@@ -24,7 +24,7 @@ the website for **artdeco decoration** company
 ###Our Desire Design Is: http://www.kingsizetheme.com/
 
 
-###BuildingTechnologies:
+### BuildingTechnologies:
 
 1Styles
 
