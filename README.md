@@ -10,14 +10,12 @@ the website for **artdeco decoration** company
 
 * Check our project's source with
 ```
-    git clone https://github.com/1schools-projects/artdeco20.ir.git
-```
 
 
 
 ###The Team
 *  [**Ali Mihandoost**] (http://github.com/Alimd)  Teacher  & Technical Manager
-*  [**Arezu eslami**] (https://github.com/ArezooEslami) Designer / Developer
+*  [**Arezu eslami**] (https://github.com/ArezooEslami) graphic designer / Developer
 *  [**Masume Lotfi**] (https://github.com/MasumeLotfi) Designer / Developer
 
 
