@@ -16,7 +16,6 @@ nav.topmenu{
 	height:500px;
 	margin-left:100px;
 	background-color:black;
-	opacity:40%;
 	position:relative;
 	opacity:0.85;
 }
@@ -59,5 +58,26 @@ nav.topmenu .triangle{
 		border   : solid transparent;
 		border-width:80px 100px 0 100px;
 		border-top-color:black;
+		z-index:-2;
+}
+
+div.arrow{
+	width:25px;
+	height:25px;
+	border-radius:40px;
+	border:3px solid white;
+	margin-left:85px;
+	margin-top:30px;
+	display:block;
+	z-index:-1;
+}
+
+span.smaltriangle{
+		margin-left:90px;
+		margin-top:80px;
+		border:solid transparent;
+		border-width:10px 0px 10px 10px;
+		border-top-color:white;
+	
 }
 				
