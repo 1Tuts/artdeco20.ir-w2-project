@@ -1,0 +1,63 @@
+.backimg{
+		position:fixed;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		z-index:-1;
+		background-image:url('../images/backimg.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+}
+
+nav.topmenu{
+	width:200px;
+	height:500px;
+	margin-left:100px;
+	background-color:black;
+	opacity:40%;
+	position:relative;
+	opacity:0.85;
+}
+
+nav.topmenu div.logo{
+	margin-left:10px;
+}
+
+nav.topmenu ul{
+	padding-left:25px;
+	padding-right:25px;
+}
+
+nav.topmenu li{
+	padding:5px 0 10px 0;
+	border-bottom:1px solid #999999;
+	
+}
+
+nav.topmenu li:first-child{
+	padding-top:17px;
+	border-top:1px solid #999999;
+}
+
+nav.topmenu li a{
+	color:#CCCCCC;
+	padding:10px 80px 0 20px;
+	font-size:20px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:capitalize;
+	white-space:nowrap;
+	
+}
+
+nav.topmenu .triangle{
+		position : absolute;
+		left:0;
+		top:100%;
+		border   : solid transparent;
+		border-width:80px 100px 0 100px;
+		border-top-color:black;
+}
+				
