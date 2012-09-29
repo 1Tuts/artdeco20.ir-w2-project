@@ -1,23 +1,15 @@
-.backimg{
-		position:fixed;
-		left:0;
-		right:0;
-		top:0;
-		bottom:0;
-		z-index:-1;
-		background-image:url('../images1/backimg.jpg');
-		background-repeat:no-repeat;
-		background-size:cover;
-		background-position:center;
+body{
+  background:#222222 url('../images1/bg-checker.png');
+
 }
 
 menu.topmenu{
 	width:200px;
 	height:500px;
-	margin-left:100px;
+	margin-left:250px;
 	background-color:black;
 	position:relative;
-	opacity:0.85;
+	float:left;
 }
 
 menu.topmenu div.logo{
@@ -44,8 +36,10 @@ menu.topmenu li li{
 	float:none;
 	background:black;
 	border:none;
-	border-top:1px dashed white;		
+	border-top:1px dashed white;
+	opacity:0.85;		
 }
+
 
 menu.topmenu li li:last-child{
 	padding-bottom:20px;
@@ -53,11 +47,11 @@ menu.topmenu li li:last-child{
 }
 	
 menu.topmenu li menu {
-	min-width:100%;
-	position:absolute;
-	left:175px;
-	top:-20px;
-	display:none;
+		min-width:100%;
+		position:absolute;
+		left:175px;
+		top:-20px;
+		display:none;
 	}
 	
 menu.topmenu li:hover menu{
@@ -77,19 +71,18 @@ menu.topmenu li a{
 }
 
 menu.topmenu li a.opasity{
-	opacity:0.99;
+	opacity:0.95;
 }
 
 menu.topmenu li a:hover{
 	opacity:0.99;
 }
 
-
 menu.topmenu .triangle{
-	position: absolute;
-	lef: 0;
-	top: 100%;
-	border:solid transparent;
+	position : absolute;
+	left:0;
+	top:100%;
+	border   : solid transparent;
 	border-width:80px 100px 0 100px;
 	border-top-color:black;
 	z-index:-1;
@@ -105,4 +98,46 @@ div.arrow{
 	display:block;
 }
 
+div.pics{
+	width:620px;
+	min-height:1500px;
+	background-color:black;
+	margin-left:480px;
+	padding:20px;
+	padding-top:30px;
+
+}
+
+div.pics p{
+	color:white;
+	border-width:bold;
+	font-size:35px;
+	font-family:Eras Medium ITC;
+}
+
+div.note{
+	width:550px;
+	min-height:30px;
+	border:1px solid white;
+	margin-top:50px;
+}
+
+div.note p{
+	font-size:20px;
+	color:white;
+	text-align:center;
+	padding-top:5px;
+}
+	
 			
+div.gallery img{
+	margin:5px;
+	margin-top:40px;
+	
+	
+}
+
+div.gallery a:hover{
+	opacity:0.60;
+	-webkit-transition: all 600ms;
+}

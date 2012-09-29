@@ -100,11 +100,11 @@
 }
 
 .lb-prev:hover {
-  background: url('../images/imagesl/prev.png') left 48% no-repeat;
+  background: url('../images/prev.png') left 48% no-repeat;
 }
 
 .lb-next:hover {
-  background: url('../images/imagesl/next.png') right 48% no-repeat;
+  background: url('../images/next.png') right 48% no-repeat;
 }
 
 .lb-dataContainer {
