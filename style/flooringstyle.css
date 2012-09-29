@@ -1,5 +1,5 @@
 body{
-  background:#222222 url('../images/bg-checker.png');
+  background:#222222 url('../images1/bg-checker.png');
 
 }
 
@@ -40,6 +40,7 @@ menu.topmenu li li{
 	opacity:0.85;		
 }
 
+
 menu.topmenu li li:last-child{
 	padding-bottom:20px;
 	padding-top:10px;
@@ -65,7 +66,16 @@ menu.topmenu li a{
 	text-decoration:none;
 	text-transform:capitalize;
 	white-space:nowrap;
+	opacity:0.45;
 	
+}
+
+menu.topmenu li a.opasity{
+	opacity:0.95;
+}
+
+menu.topmenu li a:hover{
+	opacity:0.99;
 }
 
 menu.topmenu .triangle{
