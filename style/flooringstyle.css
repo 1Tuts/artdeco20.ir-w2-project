@@ -1,5 +1,5 @@
 body{
-  background:#222222 url('../images1/bg-checker.png');
+  background:#222 url('../images1/bg-checker.png');
 
 }
 
@@ -47,11 +47,11 @@ menu.topmenu li li:last-child{
 }
 	
 menu.topmenu li menu {
-		min-width:100%;
-		position:absolute;
-		left:175px;
-		top:-20px;
-		display:none;
+	min-width:100%;
+	position:absolute;
+	left:175px;
+	top:-20px;
+	display:none;
 	}
 	
 menu.topmenu li:hover menu{
