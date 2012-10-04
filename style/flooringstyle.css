@@ -6,7 +6,7 @@ body{
 menu.topmenu{
 	width:200px;
 	height:500px;
-	margin-left:250px;
+	margin-left:100px;
 	background-color:black;
 	position:relative;
 	float:left;
@@ -102,7 +102,7 @@ div.pics{
 	width:620px;
 	min-height:1500px;
 	background-color:black;
-	margin-left:480px;
+	margin-left:330px;
 	padding:20px;
 	padding-top:30px;
 
