@@ -18,6 +18,7 @@ menu.topmenu{
 	background-color:black;
 	position:relative;
 	opacity:0.85;
+	float:left;
 }
 
 menu.topmenu div.logo{
@@ -44,7 +45,8 @@ menu.topmenu li li{
 	float:none;
 	background:black;
 	border:none;
-	border-top:1px dashed white;		
+	border-top:1px dashed white;
+	
 }
 
 menu.topmenu li li:last-child{
@@ -104,5 +106,120 @@ div.arrow{
 	margin-top:30px;
 	display:block;
 }
+/*----------gallery/flooring & wall paper----------*/
 
+body.noise{
+	background:#222222 url('../images1/bg-checker.png');
+}
+
+div.pics{
+	width:620px;
+	min-height:1500px;
+	background-color:black;
+	margin-left:330px;
+	padding:20px;
+	padding-top:30px;
+
+}
+
+div.pics p.p1{
+	color:white;
+	border-width:bold;
+	font-size:35px;
+	font-family:Eras Medium ITC;
+}
+
+div.note{
+	width:550px;
+	min-height:30px;
+	border:1px solid white;
+	margin-top:50px;
+}
+
+div.note p{
+	font-size:20px;
+	color:white;
+	text-align:center;
+	padding-top:5px;
+}
+	
+			
+div.gallery img{
+	margin:5px;
+	margin-top:40px;
+	
+	
+}
+
+div.gallery a:hover{
+	opacity:0.60;
+	-webkit-transition: all 600ms;
+}
+
+/*----------------contact us page----------------*/
+div.pics h1{
+	font-size:35px;
+	color:white;
+	border-width:bold;
+	font-family:Eras Medium ITC;
+}
+
+form input.form{
+	display:block;
+	background-color:#1b1b1b;
+	border-radius:2px;
+	border: 1px solid #666666;
+	opacity:0.75;
+	color:white;
+
+}
+
+div.address{
+	
+	min-height:500px;
+	color:#FFFFFF;
+}
+article img{
+	width:25px;
+	height:25px;
+}
+.map{
+	margin-top:30px;
+	border:1px solid #CCCCCC;
+	
+/*----------------Footer--------------*/	
+}
+div.footer{
+	padding:10px;
+	margin-top:70px;
+	width:600px;
+	min-height:200px;
+	background-color:black;
+	
+
+}
+
+div.footer ul h1{
+	color:white;
+	font-size:18px;
+	margin-top:30px;
+}
+
+div.footer ul li a{
+	display:list-item;
+	color:white;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:capitalize;
+	border-bottom:1px solid #999;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-bottom:5px;
+}
+
+div.footer ul li a:hover{
+	background-color:#121212;
+	-webkit-transition: all 300ms;
+	opacity:0.70;
+
+}
 			
