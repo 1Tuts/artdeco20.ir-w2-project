@@ -35,6 +35,6 @@ HTML5 Shiv
 ### All rights reserved ###
 Please note that  Artdeco20.ir is a curated site and that we reserve the right to refuse any listing for any reason.
 
-The [Decoart20.ir](http://decoart.ir) code and website is released under a MIT License.
+The [Artdeco20.ir](http://Artdeco20.ir) code and website is released under a MIT License.
 
 *porducet by 1schools students network (summer - autumn 2012)*
