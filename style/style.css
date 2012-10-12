@@ -19,6 +19,8 @@ menu.topmenu{
 	position:relative;
 	opacity:0.85;
 	float:left;
+	
+	-webkit-transition:top 800ms;
 }
 
 menu.topmenu div.logo{
@@ -104,7 +106,40 @@ div.arrow{
 	border:3px solid white;
 	margin-left:85px;
 	margin-top:30px;
-	display:block;
+
+}
+
+
+div.arrow div.triangle-up{
+	margin-top:5px;
+	border: transparent solid;
+	border-width:0 12px 9px 12px;
+	border-bottom-color:white;
+	cursor:pointer;
+}
+
+div.arrow div.triangle-down{
+	margin-top:8px;
+	border:solid transparent;
+	border-width:9px 12px 0 12px;
+	border-top-color:white;
+	cursor:pointer;
+}
+
+#anihelper.triangle-down menu.topmenu {
+	top:0px;
+}
+
+#anihelper.triangle-down div.triangle-down{
+	display: none;
+}
+
+#anihelper.triangle-up menu.topmenu {
+	top:-490px;
+}
+
+#anihelper.triangle-up div.triangle-up{
+	display: none;
 }
 /*----------gallery/flooring & wall paper----------*/
 

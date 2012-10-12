@@ -10,22 +10,21 @@
 	
 </head>
 <body>
-
-	<menu class="topmenu">
-	
-		<div class="logo"><img src="images1/logo.jpg" /></div>
-		<ul>
-			<li><a class="opasity" href="#" title="back to homepage">home</a></li>
-			<br />
-			<li><a href="#">portfolio</a></li>
-			<br />
-			<li>
-				<a href="#">gallery</a>
-				<menu>
-					<li><a href="gallery-flooring.html">Flooring</a></li>
-					<li><a href="gallery-wallpaper.html">wallpaper</a></li>
-				
-				</menu>
+	<div id="anihelper" class="triangle-down">
+		<menu class="topmenu">
+			<div class="logo"><img src="images1/logo.jpg" /></div>
+			<ul>
+				<li><a class="opasity" href="#" title="back to homepage">home</a></li>
+				<br />
+				<li><a href="#">portfolio</a></li>
+				<br />
+				<li>
+					<a href="#">gallery</a>
+					<menu>
+						<li><a href="gallery-flooring.html">Flooring</a></li>
+						<li><a href="gallery-wallpaper.html">wallpaper</a></li>
+					
+					</menu>
 				</li>
 			<br />
 			<li><a href="#">service</a></li>
@@ -34,10 +33,12 @@
 			<br />
 			<li><a href="#">about us</a></li>	
 		</ul>
-		<a href="#"><div class="arrow"></div></a>
+		<div class="arrow"  >
+			<div class="triangle-up" onclick=" document.getElementById('anihelper').className = 'triangle-up' "></div>	
+			<div class="triangle-down" onclick=" document.getElementById('anihelper').className = 'triangle-down' "></div>
+		</div>
 		<span class="triangle"></span>
-	
-	
+		
 	</menu>
 	<div class="noise"></div>
 	<div class="backimg"></div>
