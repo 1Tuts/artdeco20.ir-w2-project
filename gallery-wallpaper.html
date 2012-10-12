@@ -14,32 +14,36 @@
 </head>
 
 <body class="noise">
-	<menu class="topmenu">
-	
-		<div class="logo"><img src="images1/logo.jpg" /></div>
-		<ul>
-			<li><a href="index.html" title="back to homepage">home</a></li>
-			<br />
-			<li><a href="#">portfolio</a></li>
-			<br />
-			<li>
-				<a class="opasity" href="#">gallery</a>
-				<menu>
-					<li><a href="gallery-flooring.html">Flooring</a></li>
-					<li><a class="opasity" href="gallery-wallpaper.html">wallpaper</a></li>
-				
-				</menu>
+	<div id="anihelper" class="triangle-down">
+		<menu class="topmenu">
+			<div class="logo"><img src="images1/logo.jpg" /></div>
+			<ul>
+				<li><a class="opasity" href="#" title="back to homepage">home</a></li>
+				<br />
+				<li><a href="#">portfolio</a></li>
+				<br />
+				<li>
+					<a href="#">gallery</a>
+					<menu>
+						<li><a href="gallery-flooring.html">Flooring</a></li>
+						<li><a href="gallery-wallpaper.html">wallpaper</a></li>
+					
+					</menu>
 				</li>
-			<br />
-			<li><a href="#">service</a></li>
-			<br />
-			<li><a href="#">contact us</a></li>
-			<br />
-			<li><a href="#">about us</a></li>	
-		</ul>
-		<a href="#"><div class="arrow"></div></a>
-	<span class="triangle"></span>	
-	</menu>
+				<br />
+				<li><a href="#">service</a></li>
+				<br />
+				<li><a href="contact.html">contact us</a></li>
+				<br />
+				<li><a href="#">about us</a></li>	
+			</ul>
+			<div class="arrow"  >
+				<div class="triangle-up" onclick=" document.getElementById('anihelper').className = 'triangle-up' "></div>	
+				<div class="triangle-down" onclick=" document.getElementById('anihelper').className = 'triangle-down' "></div>
+			</div>
+			<span class="triangle"></span>	
+		</menu>
+	</div>
 	<div class="pics">
 		<p>The best choice for flooring</p>
 		<div class="note">
