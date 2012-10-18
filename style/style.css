@@ -259,4 +259,20 @@ div.footer ul li a:hover{
 	opacity:0.70;
 
 }
+
+/*---------------------portfplio---------------------*/
+
+p.note1{
+	
+	margin-top:10px;
+	list-style-type:none;
+	border:none
+	
+}
+a.bt{
+	padding:2px 20px;
+	border-radius:5px;
+	background-color:#999;
+	color:#000;
+}
 			
