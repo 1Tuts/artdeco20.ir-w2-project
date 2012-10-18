@@ -281,4 +281,19 @@ a.bt{
 img.service{
 	margin:2px;
 }
+
+/*---------------About us----------------*/
+
+h2.header{
+	text-align:center;
+	color:white;
+	font-size:25px;
+	border-width:bold;
+}
+
+div.pics p{
+	list-style-type:none;
+	border:none;	
+}
+
 			
