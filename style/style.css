@@ -181,6 +181,7 @@ div.note{
 	border:1px solid white;
 	margin-top:50px;
 	list-style-type:none;
+	
 }
 
 div.note p{
@@ -193,7 +194,7 @@ div.note p{
 			
 div.gallery img{
 	margin:5px;
-	margin-top:40px;
+	margin-top:10px;
 	
 	
 }
@@ -273,18 +274,22 @@ div.footer ul li a:hover{
 
 /*---------------------portfplio---------------------*/
 
-p.note1{
+h4.note1{
 	
-	margin-top:10px;
+	margin-top:30px;
 	list-style-type:none;
-	border:none
+	border:none;
+	font-size:20px;
+	color:white;
 	
 }
 a.bt{
-	padding:2px 20px;
+	margin-top:3px;
+	padding:4px 12px;
 	border-radius:5px;
-	background-color:#999;
-	color:#000;
+	background-color:#323232;
+	border:3px white;
+	color:white;
 }
 
 /*----------------Service-------------*/
