@@ -32,10 +32,15 @@ menu.topmenu{
 	float:left;
 	
 	-webkit-transition:top 800ms;
+	-moz-transition: top 800ms;
+	-ms-transition: top 800ms;
+	-o-transition: top 800ms;
+	transition:top 800ms;  
 }
 
 menu.topmenu div.logo{
 	margin-left:10px;
+	min-height:150px;
 }
 
 menu.topmenu ul{
@@ -45,6 +50,7 @@ menu.topmenu ul{
 
 menu.topmenu li{
 	padding:5px 0 10px 0;
+	border-top:none;
 	border-bottom:1px solid #999999;
 	position:relative;
 }
@@ -54,17 +60,24 @@ menu.topmenu li:first-child{
 	border-top:1px solid #999999;
 }
 
+
 menu.topmenu li li{
 	float:none;
 	background:black;
 	border:none;
-	border-top:1px dashed white;
+	border-top:1px solid white;
 	
 }
 
 menu.topmenu li li:last-child{
 	padding-bottom:20px;
 	padding-top:10px;
+	
+}
+
+menu.topmenu li li:first-child{
+	border-top:none;
+	
 }
 	
 menu.topmenu li menu {
@@ -73,10 +86,11 @@ menu.topmenu li menu {
 	left:175px;
 	top:-20px;
 	display:none;
-	}
+}
 	
 menu.topmenu li:hover menu{
 	display:block;
+	
 }
 
 menu.topmenu li a{
@@ -190,18 +204,30 @@ div.note p{
 	text-align:center;
 	padding-top:5px;
 }
-	
-			
+
+div.gallery section{
+	width:300px;
+	height:330px;
+}
+
 div.gallery img{
 	margin:5px;
 	margin-top:10px;
-	
-	
+		
+}
+
+div.gallery a{
+	text-decoration:none;
 }
 
 div.gallery a:hover{
 	opacity:0.60;
+	
 	-webkit-transition: all 600ms;
+	-moz-transition: all 600ms;
+	-ms-transition: all 600ms;
+	-o-transition: all 600ms;
+	transition:all 600ms;  
 }
 
 /*----------------contact us page----------------*/
@@ -284,11 +310,9 @@ h4.note1{
 	
 }
 a.bt{
-	margin-top:3px;
-	padding:4px 12px;
+	padding:4px 10px;
 	border-radius:5px;
 	background-color:#323232;
-	border:3px white;
 	color:white;
 }
 
@@ -296,6 +320,7 @@ a.bt{
 
 img.service{
 	margin:2px;
+	list-style-type:none;
 }
 
 h6.titr{
